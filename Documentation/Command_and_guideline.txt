@@ -1,0 +1,38 @@
+
+Command for creating virtual env:
+
+          py -m pip install --user virtualenv
+          py -m venv myproject
+          .\myproject\Scripts\activate
+
+
+
+
+Command for creating a new project:
+
+       1. chaeck django version:    django-admin --version 
+       2. Creat a folder:           mkdir projects
+       3. move to there:            cd projects
+       4.Create a new project:      django-admin startproject  project_1
+
+
+How to run your project in virtual server:
+
+        1. Go to the directory:     cd project_1
+        2. enter this command :     python manage.py runserver
+
+
+How to go normal cmd to virtual env:
+
+       workon project_1
+
+
+How to create an app:
+       1. Go to the project_1
+       1. run this command: python manage.py startapp APP_Name     
+
+        
+
+
+        
+
